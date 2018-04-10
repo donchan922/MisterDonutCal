@@ -1,0 +1,37 @@
+{
+  "id": "75557f63-f882-43fd-a369-88a5d29158eb",
+  "name": "End Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9e4c3393-3f39-4e60-8129-796d9713dc31",
+          "required": false,
+          "dataType": "@end",
+          "name": "end",
+          "value": "$end",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "終了します。おいしいドーナツを計画的に食べましょう。"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523191041,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,35 @@
+{
+  "description": "",
+  "language": "ja",
+  "disableInteractionLogs": false,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [],
+    "systemIntents": [],
+    "endIntentIds": [
+      "75557f63-f882-43fd-a369-88a5d29158eb"
+    ],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": true
+  },
+  "defaultTimezone": "Asia/Tokyo",
+  "webhook": {
+    "url": "https://us-central1-misterdonutcal.cloudfunctions.net/dialogflowFirebaseFulfillment",
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": true,
+    "cloudFunctionsInitialized": true
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "onePlatformApiVersion": "v1legacy"
+}

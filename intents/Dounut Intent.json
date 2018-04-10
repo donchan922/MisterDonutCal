@@ -1,0 +1,46 @@
+{
+  "id": "b157c101-80b8-4431-ad95-df8663312899",
+  "name": "Dounut Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "make_donut_cal",
+      "affectedContexts": [
+        {
+          "name": "DounutIntent-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d4f7defd-b332-47f6-b830-c065f00219d9",
+          "required": false,
+          "dataType": "@donut",
+          "name": "donut",
+          "value": "$donut",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523172000,
+  "fallbackIntent": false,
+  "events": []
+}
