@@ -3,7 +3,7 @@
 # MisterDonutCal
 This is the Google Assistant (Google Home) Application for telling the calorie of Mister Dounut's donut. 
 
-## Requirements
+## Usage
 - talk to Google Assistant "OK Google. ミスタードーナツのカロリーにつないで。"
 - talk to Google Home "OK Google. ミスタードーナツのカロリーにつないで。"
 
