@@ -22,6 +22,13 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     const donut = app.getArgument(DONUT_ARGUMENT);
     let calorie;
 
+    // ユーザから受け取った内容がnullの場合
+    if (donut === null) {
+      app.ask('すみません。よくわかりませんでした。'
+        + ASK_QUESTION);
+      return;
+    }
+
     switch (donut) {
       case '紅茶のマンナンスティック プレーン':
         calorie = 136;
